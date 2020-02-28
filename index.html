@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- This is an HTML document -->
+
+<!-- Author: Marina Lazaridou -->
+<!-- Subject: Interactive map for BRC's virtual giftshop -->
+<!-- File Format: HTML -->
+
+
+<!-- Start script -->
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+
+
+	<!-- Link the necessary css files -->
+
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+
+	<link rel="stylesheet" type="text/css" href="leaflet/css/leaflet.css"/>
+
+
+  <!-- Link the necessary JavaScript scripts -->
+
+  <script src="leaflet/js/leaflet.js"></script>
+
+  <script src="index.js"></script>
+
+  <!-- <script src="IL_Regions_WGS84.js"></script> -->
+
+	<script src="IL_Simplified_WGS84.js"></script>
+
+</head>
+
+<!-- Load the interactive map -->
+
+<body onload="initMap();">
+
+	<div id="map"></div>
+
+	<!-- Map title -->
+	<div id="mapTitle">Share your kindness with...</div>
+
+	<!-- BRC logo -->
+	<div id="logoContainer"></div>
+
+</body>
+
+</html>
+
+
+<!-- End of script -->
