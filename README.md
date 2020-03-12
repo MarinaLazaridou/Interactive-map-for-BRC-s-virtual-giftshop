@@ -4,5 +4,5 @@ The index.js uses data from IL_Simplified_WGS84.js, Ireland_WGS84.js and Region_
 
 It also includes functions for the events and style of the features.
 
-There are comments for all the functions. The colour of the features can change from the "color: " and "fillColor: " options in the index.js file, while the background colour is set in the style.css.
+There are comments for all the functions. The colour of the features can be changed from the "color: " and "fillColor: " options in the index.js file, while the background colour is set in the style.css.
 
