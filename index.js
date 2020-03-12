@@ -91,7 +91,7 @@ function initMap() {
     window.open(e.target.feature.properties.url)
   }
 
-  // Define the layer
+  // Define the UK regions layer
   var regionsPolyLayer = L.geoJSON(IL_Regions, {
     style: styleRegionsPolygons,
     onEachFeature: onEachFeature
@@ -117,9 +117,9 @@ function initMap() {
     };
   }
 
-  var irelandLayer = L.geoJSON(ireland, {style: styleIreland, interactive: false});
+  var irelandLayer = L.geoJSON(ireland, {style: styleIreland, interactive: false}); // From Ireland_WGS84.js
 
-  // Add labels on regions
+  // Add labels on regions from Region_Points.js
   var pointLayer = L.geoJSON(regionPoints, {
     pointToLayer: function (feature, latlng) {
       if (feature.properties.name == 'North England') {
