@@ -12,39 +12,37 @@
 
 <head>
 	<meta charset="UTF-8">
-
-
-	<!-- Link the necessary css files -->
+	
+	<html lang="en">
+		
+	<!-- Link the css files -->
 
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 
 	<link rel="stylesheet" type="text/css" href="leaflet/css/leaflet.css"/>
 
-  <!-- Link the necessary JavaScript scripts -->
+	<!-- Link the  JavaScript scripts -->
 
-  <script src="leaflet/js/leaflet.js"></script>
+	<script src="leaflet/js/leaflet.js"></script>
 
-  <script src="index.js"></script>
+	<script src="index.js"></script>
 
-	<script src="Ireland_WGS84.js"></script>
+	<script src="Ireland_WGS84.js"></script> <!-- Ireland polygon -->
 
-	<script src="IL_Simplified_WGS84.js"></script>
+	<script src="IL_Simplified_WGS84.js"></script> <!-- Independent Living Areas polygons (UK) -->
 
-	<script src="Region_Points.js"></script>
-
-
+	<script src="Region_Points.js"></script> <!-- Points in each region for the labels -->
 </head>
 
 <!-- Load the interactive map -->
 
 <body onload="initMap();">
 
+	<!-- Map -->
 	<div id="map"></div>
 
 	<!-- Map title -->
 	<div id="mapTitle">Click on a region to share </br> your kindness with...</div>
-
-	<!-- <div id="defaultCursor"></div> -->
 
 </body>
 
